@@ -1,0 +1,4 @@
+.vscode
+Portafolio.code-workspace
+*.env
+*.pyc

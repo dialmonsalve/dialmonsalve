@@ -1,0 +1,168 @@
+/* Resetear margnes y pading de todas las etiquetas */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	vertical-align: baseline;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+html{
+	box-sizing: border-box;
+	scroll-snap-type: y mandatory;
+}
+
+body{
+	background-color: #DFF6FF;
+}
+
+h1{
+	font-family: "sacramento", Arial, Helvetica, sans-serif;
+	color: #06283D;
+	font-size: 5em;
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+h2, h3, h4{
+	font-family:"montserrat";
+	color: white;
+	text-align: center;
+}
+h4{
+	margin-top: 1em;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2em;
+}
+
+.container a{
+	align-self: flex-end;
+	margin-right: 2.5em;
+	text-decoration: none;
+	color: gray;
+}
+
+.container p{
+	color:#182747;
+}
+
+.contain-skills{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 1em;
+	margin: 5%;
+}
+
+.contain-skills .hobbies p{
+	margin: 1em;
+	line-height: 2em;
+}
+
+.photo{
+	border-radius: 50%;
+	margin-bottom: 0.5em;
+}
+
+li{
+	list-style: none;
+	margin: 1em;
+}
+
+p, li{
+	margin-bottom: 0.5em;
+	font-family: "merriweather";
+	color: #400D51;
+}
+
+.beach{
+	display: inline-block;
+	width: 100%;
+}
+
+.page{
+	margin: 5%;
+}
+
+.resume, .hobbies{
+	background-color: #aac4ff9b;
+	border: 0.1em solid white;
+	border-radius: 2em;
+	box-shadow:  .1em .1em .2em #0000009b ;
+	cursor: pointer;
+	padding: 2em;
+}
+
+.resume:hover, .hobbies:hover{
+	border-color:#aac4ff9b;
+	background-color: #AAC4FF;
+	transform: scale(1.02);
+	transition: transform 0.2s;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	background-color: #08192bc4;
+	text-align: center;
+	padding: 2em;	
+}
+
+.footer{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1em;
+	justify-items: center;
+	color: white;
+	margin: 2em 3%;
+
+}
+
+.card{
+
+	border: 0.1em solid white;
+	border-radius: 1em;
+	cursor: pointer;
+	padding: 1em;
+	box-shadow:  0.2em 0.2em 0.4em  #25415ee7 ;
+	width: 15em;
+	height: 10em;
+}
+
+.card:hover{
+	background-color: #06283D;
+	border-color:#000001;
+	opacity: 0.8;
+	transform: rotateY(-180deg);
+	transition: transform 1s;
+}
+
+.col{
+	width: 2%;
+}
+
+.col:hover{
+	transform: rotateY(180deg);
+	transition: transform 1s;
+}
+
+.star{
+	color: white;
+}
+
+
+
+
+
+
+
+
+

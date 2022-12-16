@@ -127,7 +127,6 @@ footer{
 }
 
 .card{
-
 	border: 0.1em solid white;
 	border-radius: 1em;
 	cursor: pointer;
@@ -156,6 +155,40 @@ footer{
 
 .star{
 	color: white;
+}
+
+
+@media (max-width: 1024px) {
+	.footer{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);	
+	}
+}
+
+@media (max-width: 992px) {
+	.footer{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);	
+	}
+
+	.container a{
+		align-self: flex-end;
+		margin:0 0.5em 2em 0;
+		color: gray;
+	}
+
+	.contain-skills{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+@media (max-width: 576px) {
+	.footer{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);	
+	}
+
 }
 
 

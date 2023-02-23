@@ -18,10 +18,10 @@ JS
 	* Decorators
 	* Some frameworks like : Flask, PyQt, Requests, among others
 
-* Js ⭐⭐ ☆ ☆ ☆
+* Js ⭐⭐ ⭐ ⭐ ☆
 	* Functions
 
-* React ⭐ ☆ ☆ ☆ ☆
+* React ⭐ ⭐ ⭐ ☆ ☆
 	* Hooks
 	* Redux
 

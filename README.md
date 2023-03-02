@@ -1,32 +1,15 @@
 # This is my initial page #
 
+On this page, you can find several projects developed using technologies such as React with TypeScript, Astro with TypeScript, and Python basics.
+
 This page is made in: 
 
-**HTML 5**  
-![HTML5](/img/html.png)
+| HTML 5 | CSS Responsive | JS |
+| --- | --- | --- |
+| ![HTML5](/img/html.png) | ![CSS](/img/css.png) | ![JS](/img/js.png) |
 
-**CSS Responsive**  
-![CSS](/img/css.png)
+### Recent:
 
-JS  
-![JS](/img/js.png)
+My recent project was developed using context Api in React with TypeScript, with the purpose of improving my skills in these technologies. The project, called "formDi", is based on Formik, a powerful library that enables the management of forms and their validation schema.
 
-### For now I have learned about:
-
-* Python ⭐⭐⭐⭐ ☆
-	* POO
-	* Decorators
-	* Some frameworks like : Flask, PyQt, Requests, among others
-
-* Js ⭐⭐ ☆ ☆ ☆
-	* Functions
-
-* React ⭐ ☆ ☆ ☆ ☆
-	* Hooks
-	* Redux
-
-* HTML5 ⭐⭐⭐⭐⭐
-
-* CSS3  ⭐⭐⭐⭐ ☆
-
-* Bootstrap ⭐⭐ ☆ ☆ ☆
+![https://github.com/dialmonsalve/formDi](/img/formDi.png)

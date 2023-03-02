@@ -10,7 +10,7 @@ This page is made in:
 
 ### Recent:
 
-My recent project was developed using context Api in React with TypeScript, with the purpose of improving my skills in these technologies. The project, called "formDi", is based on Formik, a powerful library that enables the management of forms and their validation schema. My hook allows to, create a dynamic forms and dynamic custom validations
+My recent project was developed using context Api in React with TypeScript, with the purpose of improving my skills in these technologies. The project, called "formDi", is based on Formik, a powerful library that enables the management of forms and their validation schema. My hook allows too, create a dynamic forms and dynamic custom validations
 
 [![formDi](/img/formDi.png)](https://github.com/dialmonsalve/formDi)
 

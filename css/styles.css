@@ -37,22 +37,75 @@ h4{
 	margin-top: 1em;
 }
 
+table {
+	width:80%;
+	margin: 0 auto;
+	font-family:"montserrat";
+	border: 1px #06283D solid;
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 2rem;
+
+}
+
+th, caption {
+	text-align: center;
+	color: white;
+	background-color: #06283D;
+	text-transform: uppercase;
+}
+
+tr {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	transition: all .2s;
+	text-align: center;
+	
+
+}
+tr:hover {
+	background-color:#06283d6f ;
+	white-space: nowrap;
+}
+
+td {
+	border-bottom: 1px #06283D solid;
+	text-transform: capitalize;
+	padding: 0.5rem;
+	white-space: nowrap;
+	text-align: start;
+}
+
+tfoot tr  td{
+	text-align: end;
+}
+tfoot > tr > td a{
+	color: rgb(255, 0, 0);
+}
+
+tr > td a {
+	text-decoration: none;
+	color: #1674ae;
+}
+tr > td a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.table-container {
+	overflow-x: auto;
+}
+
 .container{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 2em;
-}
-
-.container a{
-	align-self: flex-end;
-	margin-right: 2.5em;
-	text-decoration: none;
-	color: gray;
-}
-
-.container p{
-	color:#182747;
 }
 
 .contain-skills{
@@ -140,18 +193,12 @@ footer{
 	background-color: #06283D;
 	border-color:#000001;
 	opacity: 0.8;
-	transform: rotateY(-180deg);
-	transition: transform 1s;
 }
 
-.col{
+.flag{
 	width: 2%;
 }
 
-.col:hover{
-	transform: rotateY(180deg);
-	transition: transform 1s;
-}
 
 .star{
 	color: white;
@@ -166,6 +213,7 @@ footer{
 }
 
 @media (max-width: 992px) {
+
 	.footer{
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);	
@@ -184,11 +232,18 @@ footer{
 }
 
 @media (max-width: 576px) {
+	table {
+		width: 100%;
+	}
+
+	.table-container {
+		overflow-x: scroll;
+	}
+
 	.footer{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);	
 	}
-
 }
 
 

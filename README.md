@@ -4,9 +4,9 @@ On this page, you can find several projects developed using technologies such as
 
 This page is made in: 
 
-| HTML 5 | CSS Responsive | JS |
-| --- | --- | --- |
-| ![HTML5](/img/html.png) | ![CSS](/img/css.png) | ![JS](/img/js.png) |
+| HTML 5 | CSS Responsive |
+| --- | --- |
+| ![HTML5](/img/html.png) | ![CSS](/img/css.png) |
 
 ### Recent:
 

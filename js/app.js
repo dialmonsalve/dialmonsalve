@@ -1,13 +1,13 @@
 
-const listcards = document.querySelector("#cards")
+const listCards = document.querySelector("#cards")
 
 loadEventListeners();
 
 function loadEventListeners(){
 
-	listcards.addEventListener('mouseover', onEventMouseOver)
+	listCards.addEventListener('mouseover', onEventMouseOver)
 
-	listcards.addEventListener('mouseout', onEventMouseOut)
+	listCards.addEventListener('mouseout', onEventMouseOut)
 
 }
 

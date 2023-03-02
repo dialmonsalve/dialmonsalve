@@ -46,15 +46,9 @@ table {
 	border-spacing: 0;
 }
 
-caption {
-	margin-bottom: 1rem;
-	padding: 1rem;
-	font-size: 2rem;
-
-}
-
-th, caption {
+th {
 	text-align: center;
+	padding: 1rem;
 	color: white;
 	background-color: #06283D;
 	text-transform: uppercase;
@@ -70,33 +64,17 @@ tr {
 }
 tr:hover {
 	background-color:#06283d6f ;
-	white-space: nowrap;
 }
 
 td {
 	border-bottom: 1px #06283D solid;
 	text-transform: capitalize;
 	padding: 0.5rem;
-	white-space: nowrap;
-	text-align: start;
 }
-
-tfoot tr  td{
-	text-align: end;
-}
-tfoot > tr > td a{
-	color: rgb(255, 0, 0);
-}
-
-tr > td a {
+a {
 	text-decoration: none;
-	color: #1674ae;
-}
-tr > td a:hover {
-	text-decoration: underline;
 	color: white;
 }
-
 .table-container {
 	overflow-x: auto;
 }
@@ -106,6 +84,17 @@ tr > td a:hover {
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 2em;
+}
+
+.container a{
+	align-self: flex-end;
+	margin-right: 2.5em;
+	text-decoration: none;
+	color: gray;
+}
+
+.container p{
+	color:#182747;
 }
 
 .contain-skills{
@@ -245,6 +234,63 @@ footer{
 		grid-template-columns: repeat(1, 1fr);	
 	}
 }
+
+
+caption {
+	margin-bottom: 1rem;
+	padding: 1rem;
+	font-size: 2rem;
+}
+
+th, caption {
+	text-align: center;
+	color: white;
+	background-color: #06283D;
+	text-transform: uppercase;
+}
+
+tr:hover {
+	background-color:#06283d6f ;
+	white-space: nowrap;
+}
+
+
+tfoot tr  td{
+	text-align: end;
+}
+tfoot > tr > td a{
+	color: rgb(255, 0, 0);
+}
+
+tr > td a {
+	text-decoration: none;
+	color: #1674ae;
+}
+tr > td a:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

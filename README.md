@@ -10,12 +10,13 @@ En este repositorio puedes encontrar varios proyectos desarrollados usando tecno
 ![Javascript](/img/js.png)
 ![Python](/img/python.png)
 
-![React](/img/react.png)
-![Node.js](/img/node.png)
-![Typescript](/img/ts.png)
+![Astro](/img/astro.png)
 ![Sass](/img/sass.png)
+![Typescript](/img/ts.png)
+![React](/img/react.png)
 
 ![Next.js](/img/next.png)
+![Node.js](/img/node.png)
 ![Docker](/img/docker.png)
 ![MongoDB](/img/mongo.png)
 ![Postgresql](/img/postgres.png)

@@ -11,6 +11,7 @@ En este repositorio puedes encontrar varios proyectos desarrollados usando tecno
 ![Python](/img/python.png)
 
 ![Astro](/img/astro.png)
+![Astro1](/img/astro.png)
 ![Sass](/img/sass.png)
 ![Typescript](/img/ts.png)
 ![React](/img/react.png)
